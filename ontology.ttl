@@ -1,0 +1,117 @@
+@prefix : <http://coffee-quality.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Core Classes (adapted)
+:CoffeeLot a rdfs:Class .
+:QualityProfile a rdfs:Class .
+:ProcessingMethod a rdfs:Class .
+:Country a rdfs:Class .
+:Color a rdfs:Class .
+:QualityTier a rdfs:Class .
+
+### Properties (adapted for dataset)
+:hasSpecies a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range xsd:string .
+:fromCountry a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range :Country .
+:harvestYear a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range xsd:gYear .
+:hasColor a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range :Color .
+:hasProcessingMethod a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range :ProcessingMethod .
+:hasQualityProfile a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range :QualityProfile .
+:hasQualityTier a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range :QualityTier .
+
+### Cupping Attributes (dataset columns)
+:aromaScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:flavorScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:aftertasteScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:acidityScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:bodyScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:balanceScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:uniformityScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:cleanCupScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:sweetnessScore a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:cupperPoints a rdf:Property ; rdfs:domain :QualityProfile ; rdfs:range xsd:decimal .
+:totalCupPoints a rdf:Property ; rdfs:domain :CoffeeLot ; rdfs:range xsd:decimal .
+
+### Controlled vocab instances
+:Arabica a rdfs:Class .
+:Robusta a rdfs:Class .
+:Ethiopia a :Country .
+:Brazil a :Country .
+:Green a :Color .
+:BluishGreen a :Color .
+:WashedWet a :ProcessingMethod .
+:NaturalDry a :ProcessingMethod .
+:EliteGrade a :QualityTier .
+:PremiumGrade a :QualityTier .
+
+### Example Data (adapted from dataset head)
+
+:Lot0 a :CoffeeLot ;
+    rdfs:label "Ethiopian Lot 2014 Washed" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :WashedWet ;
+    :hasQualityProfile :Lot0_Profile ;
+    :totalCupPoints "90.58"^^xsd:decimal ;
+    :hasQualityTier :EliteGrade .
+
+:Lot0_Profile a :QualityProfile ;
+    :aromaScore "8.67"^^xsd:decimal ;
+    :flavorScore "8.83"^^xsd:decimal ;
+    :aftertasteScore "8.67"^^xsd:decimal ;
+    :acidityScore "8.75"^^xsd:decimal ;
+    :bodyScore "8.50"^^xsd:decimal ;
+    :balanceScore "8.42"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.75"^^xsd:decimal .
+
+:Lot1 a :CoffeeLot ;
+    rdfs:label "Ethiopian Lot 2014 Washed" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :WashedWet ;
+    :hasQualityProfile :Lot1_Profile ;
+    :totalCupPoints "89.92"^^xsd:decimal ;
+    :hasQualityTier :PremiumGrade .
+
+:Lot1_Profile a :QualityProfile ;
+    :aromaScore "8.75"^^xsd:decimal ;
+    :flavorScore "8.67"^^xsd:decimal ;
+    :aftertasteScore "8.50"^^xsd:decimal ;
+    :acidityScore "8.58"^^xsd:decimal ;
+    :bodyScore "8.42"^^xsd:decimal ;
+    :balanceScore "8.42"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.58"^^xsd:decimal .
+
+:Lot3 a :CoffeeLot ;
+    rdfs:label "Ethiopian Lot 2014 Natural" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :NaturalDry ;
+    :hasQualityProfile :Lot3_Profile ;
+    :totalCupPoints "89.00"^^xsd:decimal ;
+    :hasQualityTier :PremiumGrade .
+
+:Lot3_Profile a :QualityProfile ;
+    :aromaScore "8.17"^^xsd:decimal ;
+    :flavorScore "8.58"^^xsd:decimal ;
+    :aftertasteScore "8.42"^^xsd:decimal ;
+    :acidityScore "8.42"^^xsd:decimal ;
+    :bodyScore "8.50"^^xsd:decimal ;
+    :balanceScore "8.25"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.67"^^xsd:decimal .
