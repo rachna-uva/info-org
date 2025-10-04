@@ -1,0 +1,208 @@
+Species,Country.of.Origin,Harvest.Year,Color,Processing.Method,Aroma,Flavor,Aftertaste,Acidity,Body,Balance,Uniformity,Clean.Cup,Sweetness,Cupper.Points,Total.Cup.Points
+Arabica,Colombia,2021-2022,green,Other,8.58,8.5,8.42,8.58,8.25,8.42,10.0,10.0,10.0,8.58,89.33
+Arabica,Taiwan,2021-2022,blue-green,Washed / Wet,8.5,8.5,7.92,8.0,7.92,8.25,10.0,10.0,10.0,8.5,87.58
+Arabica,Laos,2021-2022,yellowish,Semi-washed / Semi-pulped,8.33,8.42,8.08,8.17,7.92,8.17,10.0,10.0,10.0,8.33,87.42
+Arabica,Costa Rica,2022,green,Washed / Wet,8.08,8.17,8.17,8.25,8.17,8.08,10.0,10.0,10.0,8.25,87.17
+Arabica,Colombia,2022,yellow-green,Pulped natural / honey,8.33,8.33,8.08,8.25,7.92,7.92,10.0,10.0,10.0,8.25,87.08
+Arabica,Guatemala,2022,green,Washed / Wet,8.33,8.33,8.25,7.83,7.83,8.17,10.0,10.0,10.0,8.25,87.0
+Arabica,Taiwan,2021-2022,green,Washed / Wet,8.33,8.17,8.08,8.0,7.83,8.25,10.0,10.0,10.0,8.25,86.92
+Arabica,Taiwan,2021-2022,yellow green,Natural / Dry,8.25,8.25,8.17,8.0,7.92,8.08,10.0,10.0,10.0,8.08,86.75
+Arabica,Taiwan,2021-2022,greenish,Washed / Wet,8.08,8.08,8.25,8.08,7.92,8.0,10.0,10.0,10.0,8.25,86.67
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,8.08,8.17,8.08,8.17,8.0,8.0,10.0,10.0,10.0,8.0,86.5
+Arabica,Ethiopia,2021-2022,greenish,Natural / Dry,8.08,8.25,8.0,8.08,7.92,7.92,10.0,10.0,10.0,8.0,86.25
+Arabica,Guatemala,2021,brownish,Natural / Dry,8.08,8.0,8.0,7.75,8.25,8.17,10.0,10.0,10.0,8.0,86.25
+Arabica,Taiwan,2021-2022,green,Washed / Wet,8.08,8.0,8.08,8.08,8.0,8.0,10.0,10.0,10.0,8.0,86.25
+Arabica,Ethiopia,2021-2022,yellow- green,Natural / Dry,7.67,8.17,8.0,8.33,8.0,8.0,10.0,10.0,10.0,8.0,86.17
+Arabica,Colombia,2021-2022,green,Washed / Wet,8.08,8.0,8.08,7.92,8.08,8.0,10.0,10.0,10.0,8.0,86.17
+Arabica,Taiwan,2021-2022,green,Pulped natural / honey,8.17,8.08,8.0,7.92,8.0,7.92,10.0,10.0,10.0,8.0,86.08
+Arabica,Ethiopia,2022,green,Washed / Wet,8.17,8.08,7.92,8.17,7.75,7.92,10.0,10.0,10.0,8.08,86.08
+Arabica,Taiwan,2022,yellow-green,Natural / Dry,8.0,8.17,8.0,7.92,7.92,7.92,10.0,10.0,10.0,8.17,86.08
+Arabica,Taiwan,2021-2022,brownish,Natural / Dry,8.08,8.17,7.75,7.92,7.83,8.0,10.0,10.0,10.0,8.17,85.92
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,8.17,8.0,7.92,7.92,8.17,7.75,10.0,10.0,10.0,7.92,85.83
+Arabica,Guatemala,2021-2022,yellowish,Natural / Dry,8.0,7.92,8.08,7.92,7.75,8.0,10.0,10.0,10.0,8.08,85.75
+Arabica,Taiwan,2022,green,Natural / Dry,8.08,8.0,7.92,7.92,8.0,7.83,10.0,10.0,10.0,7.92,85.67
+Arabica,Thailand,2021-2022,browish-green,Pulped natural / honey,7.67,8.0,7.83,8.0,8.08,8.0,10.0,10.0,10.0,8.08,85.67
+Arabica,Colombia,2022,brownish,Unknown,8.08,8.0,7.83,8.17,7.75,7.83,10.0,10.0,10.0,8.0,85.67
+Arabica,Taiwan,2021-2022,bluish-green,Washed / Wet,7.83,8.0,7.92,8.0,8.0,7.92,10.0,10.0,10.0,7.92,85.58
+Arabica,Brazil,2022,green,Pulped natural / honey,7.83,8.08,7.83,7.92,8.0,7.83,10.0,10.0,10.0,8.0,85.5
+Arabica,Taiwan,2021-2022,green,Natural / Dry,7.92,7.92,8.0,7.92,7.83,7.92,10.0,10.0,10.0,8.0,85.5
+Arabica,Taiwan,2021-2022,green,Natural / Dry,8.17,8.08,7.92,8.0,7.58,7.83,10.0,10.0,10.0,7.92,85.5
+Arabica,Taiwan,2021-2022,blue-green,Natural / Dry,8.0,8.0,8.0,7.92,7.75,7.92,10.0,10.0,10.0,7.92,85.5
+Arabica,United States (Hawaii),2021-2022,green,Washed / Wet,8.0,7.92,8.0,7.83,7.67,8.0,10.0,10.0,10.0,8.0,85.42
+Arabica,Taiwan,2022,bluish-green,Washed / Wet,8.0,8.0,7.83,7.83,7.75,7.92,10.0,10.0,10.0,8.08,85.42
+Arabica,Taiwan,2022,green,Washed / Wet,7.92,8.0,7.83,7.92,7.83,7.83,10.0,10.0,10.0,8.0,85.33
+Arabica,Taiwan,2022,green,Washed / Wet,8.08,8.17,7.67,7.83,7.67,7.92,10.0,10.0,10.0,8.0,85.33
+Arabica,Ethiopia,2021-2022,green,Washed / Wet,7.67,7.83,7.83,8.0,8.0,8.0,10.0,10.0,10.0,8.0,85.33
+Arabica,Ethiopia,2021-2022,yellow green,Natural / Dry,8.0,8.08,8.0,8.0,7.67,7.75,10.0,10.0,10.0,7.83,85.33
+Arabica,Ethiopia,2021-2022,greenish,Washed / Wet,7.92,7.75,7.83,8.17,8.0,7.75,10.0,10.0,10.0,7.83,85.25
+Arabica,Taiwan,2021-2022,bluish-green,Washed / Wet,8.0,7.92,7.83,7.92,7.83,7.83,10.0,10.0,10.0,7.92,85.25
+Arabica,Taiwan,2022,green,Pulped natural / honey,8.25,8.08,7.83,7.75,7.67,7.75,10.0,10.0,10.0,7.92,85.25
+Arabica,Kenya,2022-2023,greenish,Washed / Wet,8.17,7.75,7.83,7.58,7.92,8.0,10.0,10.0,10.0,8.0,85.25
+Arabica,Taiwan,2017-2018,bluish-green,Washed / Wet,7.75,7.92,7.75,8.0,7.83,7.92,10.0,10.0,10.0,8.0,85.17
+Arabica,Taiwan,2022,brownish,Natural / Dry,8.0,7.92,7.83,7.92,7.75,7.75,10.0,10.0,10.0,7.92,85.08
+Arabica,Taiwan,2021-2022,greenish,Washed / Wet,8.0,8.08,7.67,7.75,7.92,7.83,10.0,10.0,10.0,7.83,85.08
+Arabica,Taiwan,2021-2022,pale yellow,Washed / Wet,8.0,7.92,7.67,8.0,7.75,7.83,10.0,10.0,10.0,7.92,85.08
+Arabica,Uganda,2021-2022,green,Washed / Wet,8.0,7.92,7.75,7.75,7.75,7.92,10.0,10.0,10.0,7.92,85.0
+Arabica,Taiwan,2021-2022,green,Unknown,7.92,8.0,7.92,8.0,7.58,7.75,10.0,10.0,10.0,7.83,85.0
+Arabica,Taiwan,2021-2022,yellow green,Natural / Dry,8.17,8.08,7.83,7.67,7.67,7.75,10.0,10.0,10.0,7.83,85.0
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,8.08,7.67,8.0,7.92,7.83,10.0,10.0,10.0,7.83,85.0
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,8.0,7.75,7.92,8.0,7.83,10.0,10.0,10.0,7.83,85.0
+Arabica,Guatemala,2021-2022,green,Washed / Wet,7.83,7.92,7.75,8.0,7.75,7.75,10.0,10.0,10.0,7.92,84.92
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.92,7.92,7.83,7.83,7.75,7.83,10.0,10.0,10.0,7.83,84.92
+Arabica,Taiwan,2021-2022,brownish,Natural / Dry,8.0,8.0,7.75,7.75,7.67,7.75,10.0,10.0,10.0,7.92,84.83
+Arabica,Indonesia,2022,bluish-green,Unknown,7.83,7.92,7.75,7.83,7.83,7.83,10.0,10.0,10.0,7.83,84.83
+Arabica,Peru,2022,greenish,Washed / Wet,8.0,8.0,7.83,7.83,7.58,7.83,10.0,10.0,10.0,7.75,84.83
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,7.92,7.75,7.75,7.92,7.83,7.83,10.0,10.0,10.0,7.83,84.83
+Arabica,Taiwan,2021-2022,greenish,Natural / Dry,7.83,7.83,7.67,7.67,7.83,8.0,10.0,10.0,10.0,8.0,84.83
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.67,7.92,7.92,7.83,7.75,7.83,10.0,10.0,10.0,7.83,84.75
+Arabica,Brazil,2022,green,Natural / Dry,7.83,7.92,7.75,7.92,7.67,7.83,10.0,10.0,10.0,7.83,84.75
+Arabica,Panama,2022-2023,bluish-green,Washed / Wet,7.83,7.83,7.75,7.92,7.83,7.75,10.0,10.0,10.0,7.83,84.75
+Arabica,Taiwan,2021-2022,blue-green,Pulped natural / honey,7.92,8.08,7.67,7.92,7.67,7.75,10.0,10.0,10.0,7.75,84.75
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,8.0,7.67,7.83,7.92,7.67,10.0,10.0,10.0,7.92,84.67
+Arabica,Guatemala,2021-2022,yellow-green,Natural / Dry,7.83,8.0,7.67,7.83,7.75,7.75,10.0,10.0,10.0,7.83,84.67
+Arabica,Costa Rica,2022-2023,green,Washed / Wet,7.58,7.83,7.5,7.67,7.83,7.67,10.0,10.0,10.0,8.58,84.67
+Arabica,Taiwan,2021-2022,greenish,Pulped natural / honey,7.83,7.83,7.75,7.75,7.75,7.75,10.0,10.0,10.0,7.92,84.58
+Arabica,Taiwan,2022,green,Pulped natural / honey,8.17,7.83,7.67,7.83,7.67,7.67,10.0,10.0,10.0,7.75,84.58
+Arabica,Nicaragua,2021-2022,green,Natural / Dry,7.92,7.75,7.67,7.67,7.83,7.75,10.0,10.0,10.0,8.0,84.58
+Arabica,Taiwan,2021-2022,green,Washed / Wet,8.08,7.83,7.67,7.67,7.67,7.75,10.0,10.0,10.0,7.92,84.58
+Arabica,Taiwan,2021-2022,green,Natural / Dry,7.83,8.0,7.67,7.75,7.67,7.75,10.0,10.0,10.0,7.92,84.58
+Arabica,Vietnam,2021-2022,brownish,Natural / Dry,8.0,7.83,7.75,7.67,7.58,7.83,10.0,10.0,10.0,7.92,84.58
+Arabica,Costa Rica,2022,green,Washed / Wet,7.75,7.83,7.67,7.83,7.75,7.75,10.0,10.0,10.0,7.92,84.5
+Arabica,Taiwan,2021-2022,bluish-green,Pulped natural / honey,7.75,7.92,7.83,7.75,7.75,7.75,10.0,10.0,10.0,7.75,84.5
+Arabica,Honduras,2022-2023,green,Washed / Wet,7.83,7.92,7.75,7.75,7.75,7.75,10.0,10.0,10.0,7.75,84.5
+Arabica,Ethiopia,2021-2022,green,Washed / Wet,7.92,7.83,7.75,7.92,7.58,7.67,10.0,10.0,10.0,7.83,84.5
+Arabica,Taiwan,2021-2022,green,Natural / Dry,8.08,7.92,7.75,7.83,7.5,7.58,10.0,10.0,10.0,7.83,84.5
+Arabica,Taiwan,2021-2022,bluish-green,Washed / Wet,7.83,8.0,7.5,7.75,7.75,7.75,10.0,10.0,10.0,7.83,84.42
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,7.83,7.75,7.75,7.83,7.75,10.0,10.0,10.0,7.75,84.33
+Arabica,United States (Hawaii),2022,yellow-green,Washed / Wet,7.92,7.83,7.75,7.92,7.5,7.67,10.0,10.0,10.0,7.75,84.33
+Arabica,Ethiopia,2021-2022,yellow green,Natural / Dry,7.83,7.75,7.58,7.92,8.0,7.5,10.0,10.0,10.0,7.75,84.33
+Arabica,El Salvador,2021,brownish,Pulped natural / honey,7.83,7.83,7.83,7.83,7.67,7.67,10.0,10.0,10.0,7.67,84.33
+Arabica,Colombia,2021-2022,green,Washed / Wet,7.75,7.75,7.75,7.75,7.83,7.67,10.0,10.0,10.0,7.83,84.33
+Arabica,Indonesia,2022,blue-green,Other,7.67,7.67,7.83,7.83,7.67,7.75,10.0,10.0,10.0,7.83,84.25
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.58,7.92,7.67,7.75,7.83,7.75,10.0,10.0,10.0,7.75,84.25
+Arabica,Madagascar,2022,blue-green,Washed / Wet,7.92,7.92,7.58,7.75,7.58,7.67,10.0,10.0,10.0,7.83,84.25
+Arabica,Honduras,2022-2023,green,Washed / Wet,7.75,7.75,7.58,7.83,7.75,7.75,10.0,10.0,10.0,7.75,84.17
+Arabica,Guatemala,2021-2022,green,Washed / Wet,7.58,7.92,7.58,7.83,7.75,7.67,10.0,10.0,10.0,7.75,84.08
+Arabica,Taiwan,2021-2022,greenish,Pulped natural / honey,7.83,7.92,7.83,7.58,7.58,7.67,10.0,10.0,10.0,7.67,84.08
+Arabica,Taiwan,2021-2022,yello-green,Natural / Dry,7.92,7.75,7.67,7.75,7.75,8.0,9.33,10.0,10.0,7.92,84.08
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,7.83,7.67,7.83,7.75,7.67,10.0,10.0,10.0,7.67,84.08
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.67,7.92,7.67,7.75,7.67,7.58,10.0,10.0,10.0,7.75,84.0
+Arabica,Honduras,2021-2022,green,Pulped natural / honey,7.75,7.75,7.75,7.67,7.75,7.67,10.0,10.0,10.0,7.67,84.0
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,7.58,7.67,7.75,7.75,7.75,7.75,10.0,10.0,10.0,7.75,84.0
+Arabica,Ethiopia,2021-2022,green,Washed / Wet,8.0,7.75,7.5,7.67,7.67,7.67,10.0,10.0,10.0,7.75,84.0
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,7.75,7.58,7.58,7.92,7.67,7.75,10.0,10.0,10.0,7.75,84.0
+Arabica,Colombia,2022,green,Washed / Wet,7.67,7.83,7.58,7.92,7.67,7.67,10.0,10.0,10.0,7.67,84.0
+Arabica,Costa Rica,2022-2023,green,Washed / Wet,7.67,7.92,7.58,7.75,7.67,7.58,10.0,10.0,10.0,7.75,83.92
+Arabica,Guatemala,2021,greenish,Natural / Dry,7.83,7.83,7.58,7.67,7.67,7.58,10.0,10.0,10.0,7.75,83.92
+Arabica,Guatemala,2022-2023,green,Washed / Wet,7.58,7.83,7.58,7.75,7.67,7.75,10.0,10.0,10.0,7.75,83.92
+Arabica,Thailand,2022,yellowish,Natural / Dry,7.75,7.67,7.58,7.75,7.75,7.67,10.0,10.0,10.0,7.75,83.92
+Arabica,Colombia,2022-2023,green,Washed / Wet,7.67,7.75,7.67,7.75,7.67,7.67,10.0,10.0,10.0,7.67,83.83
+Arabica,Guatemala,2021-2022,green,Natural / Dry,7.58,7.83,7.67,7.67,7.67,7.67,10.0,10.0,10.0,7.75,83.83
+Arabica,Guatemala,2021-2022,greenish,Washed / Wet,7.58,7.92,7.5,7.67,7.75,7.67,10.0,10.0,10.0,7.75,83.83
+Arabica,Ethiopia,2021-2022,green,Washed / Wet,7.83,7.67,7.5,7.92,7.5,7.67,10.0,10.0,10.0,7.75,83.83
+Arabica,Colombia,2022-2023,green,Washed / Wet,7.92,7.75,7.42,7.58,7.92,7.67,10.0,10.0,10.0,7.58,83.83
+Arabica,United States (Hawaii),2022,green,Washed / Wet,7.67,7.92,7.58,7.58,7.58,7.75,10.0,10.0,10.0,7.75,83.83
+Arabica,Colombia,2022,greenish,Pulped natural / honey,7.67,7.92,7.67,7.58,7.67,7.67,10.0,10.0,10.0,7.58,83.75
+Arabica,Mexico,2022-2023,green,Washed / Wet,7.67,7.67,7.58,7.67,7.83,7.58,10.0,10.0,10.0,7.75,83.75
+Arabica,Colombia,2022,greenish,Unknown,7.83,7.75,7.5,7.58,7.67,7.67,10.0,10.0,10.0,7.67,83.67
+Arabica,Taiwan,2022,bluish-green,Washed / Wet,7.67,7.67,7.75,7.75,7.5,7.67,10.0,10.0,10.0,7.67,83.67
+Arabica,Myanmar,2022,pale yellow,Natural / Dry,7.83,7.83,7.67,7.58,7.58,7.58,10.0,10.0,10.0,7.58,83.67
+Arabica,Taiwan,2021-2022,greenish,Pulped natural / honey,7.58,7.75,7.67,7.83,7.5,7.67,10.0,10.0,10.0,7.67,83.67
+Arabica,Honduras,2021,pale yellow,Natural / Dry,7.67,7.67,7.58,7.75,7.67,7.67,10.0,10.0,10.0,7.67,83.67
+Arabica,Taiwan,2021-2022,green,Natural / Dry,7.58,7.67,7.5,7.75,7.75,7.67,10.0,10.0,10.0,7.67,83.58
+Arabica,Taiwan,2021-2022,green,Pulped natural / honey,7.58,7.75,7.58,7.75,7.58,7.67,10.0,10.0,10.0,7.67,83.58
+Arabica,Guatemala,2021-2022,green,Washed / Wet,7.58,7.83,7.58,7.67,7.58,7.58,10.0,10.0,10.0,7.75,83.58
+Arabica,Honduras,2021-2022,green,Washed / Wet,7.75,7.67,7.58,7.58,7.58,7.67,10.0,10.0,10.0,7.67,83.5
+Arabica,Colombia,2022,bluish-green,Washed / Wet,7.75,7.75,7.5,7.58,7.83,7.5,10.0,10.0,10.0,7.58,83.5
+Arabica,Thailand,2022,green,Washed / Wet,7.42,7.83,7.58,7.67,7.67,7.75,10.0,10.0,10.0,7.58,83.5
+Arabica,Ethiopia,2021-2022,greenish,Washed / Wet,7.42,7.42,7.42,8.0,7.92,7.67,10.0,10.0,10.0,7.67,83.5
+Arabica,Thailand,2022,green,Washed / Wet,7.67,7.67,7.5,7.67,7.58,7.67,10.0,10.0,10.0,7.67,83.42
+Arabica,Uganda,2021-2022,green,Washed / Wet,7.75,7.75,7.5,7.5,7.58,7.58,10.0,10.0,10.0,7.75,83.42
+Arabica,Taiwan,2021-2022,blue-green,Washed / Wet,7.75,7.92,7.67,7.92,7.75,7.83,8.67,10.0,10.0,7.92,83.42
+Arabica,Uganda,2021-2022,green,Washed / Wet,7.75,7.67,7.58,7.5,7.67,7.5,10.0,10.0,10.0,7.67,83.33
+Arabica,Taiwan,2021-2022,greenish,Pulped natural / honey,7.58,7.67,7.5,7.75,7.5,7.58,10.0,10.0,10.0,7.75,83.33
+Arabica,Guatemala,2021,green,Washed / Wet,7.5,7.75,7.58,7.75,7.67,7.58,10.0,10.0,10.0,7.5,83.33
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.58,7.67,7.58,7.75,7.42,7.58,10.0,10.0,10.0,7.75,83.33
+Arabica,Colombia,2021-2022,greenish,Washed / Wet,7.67,7.67,7.42,7.75,7.5,7.75,10.0,10.0,10.0,7.58,83.33
+Arabica,Costa Rica,2022-2023,green,Washed / Wet,7.58,7.75,7.42,7.67,7.5,7.75,10.0,10.0,10.0,7.67,83.33
+Arabica,Taiwan,2021-2022,blue-green,Washed / Wet,7.75,7.83,7.58,7.58,7.58,7.5,10.0,10.0,10.0,7.5,83.33
+Arabica,Thailand,2022,yellow-green,Washed / Wet,7.92,7.92,7.75,7.33,7.58,7.5,10.0,10.0,10.0,7.33,83.33
+Arabica,"Tanzania, United Republic Of",2022-2023,greenish,Washed / Wet,7.92,7.67,7.42,7.5,7.67,7.58,10.0,10.0,10.0,7.5,83.25
+Arabica,Brazil,2022-2023,green,Natural / Dry,7.58,7.5,7.5,7.83,7.67,7.5,10.0,10.0,10.0,7.67,83.25
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.75,7.75,7.58,7.67,7.42,7.5,10.0,10.0,10.0,7.58,83.25
+Arabica,Colombia,2022,brownish,Other,7.67,7.67,7.58,7.67,7.58,7.58,10.0,10.0,10.0,7.5,83.25
+Arabica,Honduras,2021,bluish-green,Washed / Wet,7.67,7.75,7.67,7.58,7.5,7.58,10.0,10.0,10.0,7.5,83.25
+Arabica,Honduras,2021-2022,green,Washed / Wet,7.75,7.58,7.58,7.58,7.5,7.58,10.0,10.0,10.0,7.67,83.25
+Arabica,Taiwan,2021-2022,greenish,Natural / Dry,7.75,7.75,7.5,7.75,7.5,7.42,10.0,10.0,10.0,7.5,83.17
+Arabica,Taiwan,2021-2022,blue-green,Washed / Wet,7.67,7.67,7.5,7.58,7.58,7.5,10.0,10.0,10.0,7.67,83.17
+Arabica,Laos,2022,brownish,Natural / Dry,7.67,7.75,7.33,7.67,7.58,7.5,10.0,10.0,10.0,7.58,83.08
+Arabica,Honduras,2021-2022,green,Washed / Wet,7.67,7.67,7.5,7.58,7.58,7.5,10.0,10.0,10.0,7.58,83.08
+Arabica,Honduras,2022-2023,green,Washed / Wet,7.75,7.58,7.58,7.58,7.58,7.5,10.0,10.0,10.0,7.5,83.08
+Arabica,Colombia,2022-2023,bluish-green,Washed / Wet,8.0,7.67,7.42,7.58,7.58,7.42,10.0,10.0,10.0,7.33,83.0
+Arabica,Taiwan,2021-2022,blue-green,Pulped natural / honey,7.5,7.67,7.58,7.58,7.5,7.5,10.0,10.0,10.0,7.58,82.92
+Arabica,Mexico,2021-2022,green,Washed / Wet,7.75,7.5,7.42,7.67,7.58,7.5,10.0,10.0,10.0,7.5,82.92
+Arabica,Colombia,2021-2022,greenish,Washed / Wet,7.58,7.5,7.5,7.67,7.58,7.5,10.0,10.0,10.0,7.58,82.92
+Arabica,Taiwan,2022,yellow-green,Unknown,7.67,7.5,7.42,7.75,7.42,7.58,10.0,10.0,10.0,7.58,82.92
+Arabica,Honduras,2022-2023,green,Washed / Wet,7.67,7.58,7.5,7.5,7.58,7.5,10.0,10.0,10.0,7.5,82.83
+Arabica,Thailand,2022,yellow-green,Washed / Wet,7.17,7.92,7.58,7.5,7.58,7.67,10.0,10.0,10.0,7.42,82.83
+Arabica,Vietnam,2021-2022,green,Pulped natural / honey,7.58,7.42,7.58,7.5,7.67,7.75,10.0,10.0,10.0,7.33,82.83
+Arabica,Nicaragua,2022-2023,green,Natural / Dry,7.33,7.58,7.25,7.33,7.75,8.17,10.0,10.0,10.0,7.33,82.75
+Arabica,Costa Rica,2021,pale yellow,Pulped natural / honey,7.33,7.5,7.25,7.92,7.75,7.58,10.0,10.0,10.0,7.42,82.75
+Arabica,Colombia,2022,green,Washed / Wet,7.58,7.67,7.58,7.5,7.33,7.5,10.0,10.0,10.0,7.5,82.67
+Arabica,Thailand,2022,greenish,Washed / Wet,7.33,7.58,7.58,7.5,7.67,7.67,10.0,10.0,10.0,7.33,82.67
+Arabica,Thailand,2021-2022,yellow green,Natural / Dry,7.5,7.58,7.5,7.42,7.5,7.58,10.0,10.0,10.0,7.58,82.67
+Arabica,Honduras,2022-2023,green,Washed / Wet,7.67,7.58,7.33,7.5,7.58,7.5,10.0,10.0,10.0,7.5,82.67
+Arabica,Taiwan,2021-2022,green,Natural / Dry,7.67,7.67,7.42,7.42,7.42,7.5,10.0,10.0,10.0,7.5,82.58
+Arabica,Taiwan,2021-2022,blue-green,Washed / Wet,7.67,7.58,7.42,7.42,7.5,7.5,10.0,10.0,10.0,7.5,82.58
+Arabica,Nicaragua,2021-2022,green,Washed / Wet,7.5,7.58,7.42,7.58,7.5,7.58,10.0,10.0,10.0,7.42,82.58
+Arabica,El Salvador,2022-2023,green,Washed / Wet,7.67,7.33,7.17,7.67,7.83,7.5,10.0,10.0,10.0,7.33,82.5
+Arabica,Panama,2021-2022,green,Washed / Wet,7.75,7.67,7.17,7.67,7.42,7.42,10.0,10.0,10.0,7.42,82.5
+Arabica,Brazil,2022-2023,bluish-green,Natural / Dry,7.5,7.58,7.5,7.5,7.67,7.42,10.0,10.0,10.0,7.33,82.5
+Arabica,United States (Hawaii),2022,blue-green,Washed / Wet,7.33,7.58,7.5,7.5,7.5,7.58,10.0,10.0,10.0,7.5,82.5
+Arabica,Mexico,2021,pale yellow,Washed / Wet,7.67,7.42,7.5,7.5,7.67,7.42,10.0,10.0,10.0,7.33,82.5
+Arabica,Honduras,2021-2022,green,Washed / Wet,7.58,7.58,7.33,7.5,7.58,7.42,10.0,10.0,10.0,7.5,82.5
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.42,7.42,7.58,7.42,7.58,7.5,10.0,10.0,10.0,7.58,82.5
+Arabica,Nicaragua,2021-2022,bluish-green,Washed / Wet,7.58,7.58,7.42,7.42,7.5,7.5,10.0,10.0,10.0,7.42,82.42
+Arabica,Vietnam,2021,bluish-green,Washed / Wet,7.5,7.5,7.33,7.5,7.5,7.42,10.0,10.0,10.0,7.58,82.33
+Arabica,El Salvador,2022-2023,green,Washed / Wet,7.5,7.5,7.42,7.42,7.42,7.67,10.0,10.0,10.0,7.42,82.33
+Arabica,El Salvador,2021-2022,bluish-green,Washed / Wet,7.33,7.67,7.25,7.67,7.83,7.42,10.0,10.0,10.0,7.17,82.33
+Arabica,Taiwan,2021-2022,green,Natural / Dry,7.67,7.58,7.42,7.5,7.33,7.42,10.0,10.0,10.0,7.42,82.33
+Arabica,Peru,2022-2023,greenish,Washed / Wet,7.67,7.5,7.33,7.58,7.33,7.42,10.0,10.0,10.0,7.42,82.25
+Arabica,United States (Hawaii),2022,green,Washed / Wet,7.75,7.42,7.33,7.5,7.33,7.5,10.0,10.0,10.0,7.33,82.17
+Arabica,Kenya,2022,green,Washed / Wet,7.5,7.5,7.42,7.5,7.25,7.5,10.0,10.0,10.0,7.5,82.17
+Arabica,Honduras,2021-2022,green,Washed / Wet,7.67,7.5,7.25,7.5,7.5,7.33,10.0,10.0,10.0,7.42,82.17
+Arabica,Taiwan,2021-2022,bluish-green,Washed / Wet,7.5,7.67,7.33,7.5,7.25,7.33,10.0,10.0,10.0,7.5,82.08
+Arabica,Taiwan,2021-2022,greenish,Pulped natural / honey,7.33,7.42,7.42,7.5,7.42,7.5,10.0,10.0,10.0,7.5,82.08
+Arabica,Taiwan,2021-2022,green,Washed / Wet,7.5,7.58,7.42,7.42,7.25,7.42,10.0,10.0,10.0,7.42,82.0
+Arabica,Thailand,2022,green,Washed / Wet,7.17,7.5,7.42,7.42,7.58,7.5,10.0,10.0,10.0,7.42,82.0
+Arabica,Costa Rica,2018-2019,green,Washed / Wet,7.42,7.42,7.42,7.33,7.58,7.33,10.0,10.0,10.0,7.5,82.0
+Arabica,Guatemala,2021-2022,blue-green,Washed / Wet,7.42,7.42,7.42,7.33,7.5,7.42,10.0,10.0,10.0,7.5,82.0
+Arabica,Indonesia,2022,bluish-green,Pulped natural / honey,7.67,7.33,7.25,7.67,7.42,7.25,10.0,10.0,10.0,7.42,82.0
+Arabica,Peru,2022-2023,greenish,Washed / Wet,7.5,7.5,7.33,7.5,7.33,7.33,10.0,10.0,10.0,7.42,81.92
+Arabica,Guatemala,2022,greenish,Washed / Wet,7.33,7.42,7.33,7.42,7.58,7.42,10.0,10.0,10.0,7.42,81.92
+Arabica,Taiwan,2021-2022,green,Pulped natural / honey,7.25,7.42,7.42,7.5,7.42,7.42,10.0,10.0,10.0,7.42,81.83
+Arabica,Vietnam,2022-2023,green,Pulped natural / honey,7.5,7.5,7.25,7.42,7.42,7.42,10.0,10.0,10.0,7.33,81.83
+Arabica,Brazil,2022,pale yellow,Pulped natural / honey,7.5,7.5,7.42,7.33,7.33,7.33,10.0,10.0,10.0,7.42,81.83
+Arabica,Brazil,2021,yellow-green,Natural / Dry,7.42,7.5,7.58,7.33,7.33,7.25,10.0,10.0,10.0,7.33,81.75
+Arabica,Colombia,2021,yellow-green,Washed / Wet,7.33,7.5,7.33,7.42,7.42,7.42,10.0,10.0,10.0,7.33,81.75
+Arabica,Mexico,2021-2022,green,Washed / Wet,7.58,7.42,7.25,7.25,7.5,7.33,10.0,10.0,10.0,7.33,81.67
+Arabica,Costa Rica,2022-2023,green,Washed / Wet,7.33,7.42,7.25,7.42,7.42,7.33,10.0,10.0,10.0,7.42,81.58
+Arabica,Taiwan,2021-2022,yellow-green,Pulped natural / honey,7.42,7.5,7.33,7.33,7.33,7.33,10.0,10.0,10.0,7.33,81.58
+Arabica,Taiwan,2021-2022,green,Pulped natural / honey,7.33,7.5,7.42,7.33,7.33,7.25,10.0,10.0,10.0,7.33,81.5
+Arabica,Thailand,2022,green,Washed / Wet,7.33,7.42,7.25,7.33,7.5,7.42,10.0,10.0,10.0,7.17,81.42
+Arabica,Thailand,2021,yellowish,Natural / Dry,7.42,7.25,7.33,7.42,7.33,7.33,10.0,10.0,10.0,7.25,81.33
+Arabica,Thailand,2022,green,Washed / Wet,7.25,7.25,7.42,7.25,7.42,7.42,10.0,10.0,10.0,7.17,81.17
+Arabica,Colombia,2021-2022,greenish,Washed / Wet,7.42,7.25,7.25,7.42,7.17,7.33,10.0,10.0,10.0,7.33,81.17
+Arabica,Brazil,2022-2023,greenish,Natural / Dry,7.42,7.42,7.25,7.25,7.17,7.25,10.0,10.0,10.0,7.25,81.0
+Arabica,El Salvador,2023,bluish-green,Natural / Dry,7.42,7.33,7.33,7.5,7.08,7.0,10.0,10.0,10.0,7.17,80.83
+Arabica,Nicaragua,2021,greenish,Washed / Wet,7.25,7.25,7.17,7.33,7.08,7.25,10.0,10.0,10.0,7.17,80.5
+Arabica,Nicaragua,2022-2023,green,Washed / Wet,7.42,7.17,7.0,7.08,7.42,7.17,10.0,10.0,10.0,7.17,80.42
+Arabica,Colombia,2022,greenish,Washed / Wet,7.25,7.25,7.17,7.33,7.0,7.17,10.0,10.0,10.0,7.25,80.42
+Arabica,Peru,2022-2023,greenish,Washed / Wet,7.5,7.25,7.17,7.17,7.17,7.08,10.0,10.0,10.0,7.0,80.33
+Arabica,El Salvador,2023,bluish-green,Natural / Dry,7.08,7.25,7.08,7.42,7.42,7.08,10.0,10.0,10.0,7.0,80.33
+Arabica,Brazil,2021-2022,greenish,Natural / Dry,7.25,7.17,7.17,7.08,7.17,7.17,10.0,10.0,10.0,7.17,80.17
+Arabica,Brazil,2022-2023,green,Natural / Dry,7.17,7.17,6.92,7.17,7.42,7.17,10.0,10.0,10.0,7.08,80.08
+Arabica,Nicaragua,2022-2023,green,Natural / Dry,7.33,7.08,6.75,7.17,7.42,7.17,10.0,10.0,10.0,7.08,80.0
+Arabica,Laos,2021-2022,green,Washed / Wet,7.25,7.17,7.08,7.0,7.08,7.08,10.0,10.0,10.0,7.0,79.67
+Arabica,El Salvador,2023,bluish-green,Natural / Dry,6.5,6.75,6.75,7.17,7.08,7.0,10.0,10.0,10.0,6.83,78.08
+Arabica,Brazil,2021-2022,green,Semi-washed / Semi-pulped,7.25,7.08,6.67,6.83,6.83,6.67,10.0,10.0,10.0,6.67,78.0
