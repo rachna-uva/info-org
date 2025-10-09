@@ -1,0 +1,294 @@
+@prefix : <http://coffee-quality.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Classes
+:CoffeeLot a rdfs:Class ;
+    rdfs:comment "A specific batch of coffee with unique quality characteristics" .
+
+:QualityProfile a rdfs:Class ;
+    rdfs:comment "Defines the sensory characteristics and quality tier of coffee" .
+
+:ProcessingMethod a rdfs:Class ;
+    rdfs:comment "Method used to process coffee cherries into green beans" .
+
+:Country a rdfs:Class ;
+    rdfs:comment "Country the coffee originates from" .
+
+:Color a rdfs:Class ;
+    rdfs:comment "Color of the coffee beans" .
+
+:QualityTier a rdfs:Class ;
+    rdfs:comment "Classification of coffee based on cupping scores" .
+
+:BrewingRecommendation a rdfs:Class ;
+    rdfs:comment "Optimal brewing methods for specific coffee profiles" .
+
+
+# Controlled Vocabulary
+:Ethiopia a :Country ; rdfs:label "Ethiopia" .
+:Brazil a :Country ; rdfs:label "Brazil" .
+:Peru a :Country ; rdfs:label "Peru" .
+:China a :Country ; rdfs:label "China" .
+:CostaRica a :Country ; rdfs:label "Costa Rica" .
+:Mexico a :Country ; rdfs:label "Mexico" .
+:Uganda a :Country ; rdfs:label "Uganda" .
+:Taiwan a :Country ; rdfs:label "Taiwan" .
+:Tanzania a :Country ; rdfs:label "Tanzania" .
+:Kenya a :Country ; rdfs:label "Kenya" .
+:Colombia a :Country ; rdfs:label "Colombia" .
+:Guatemala a :Country ; rdfs:label "Guatemala" .
+:Panama a :Country ; rdfs:label "Panama" .
+:ElSalvador a :Country ; rdfs:label "El Salvador" .
+:Indonesia a :Country ; rdfs:label "Indonesia" .
+:Honduras a :Country ; rdfs:label "Honduras" .
+:UnitedStates a :Country ; rdfs:label "United States" .
+:Hawaii a :Country ; rdfs:label "Hawaii" .
+:Nicaragua a :Country ; rdfs:label "Nicaragua" .
+
+:Green a :Color ; rdfs:label "Green" .
+:BlueGreen a :Color ; rdfs:label "Blue-Green" .
+
+:WashedWet a :ProcessingMethod ; rdfs:label "Washed / Wet" .
+:NaturalDry a :ProcessingMethod ; rdfs:label "Natural / Dry" .
+:SemiWashed a :ProcessingMethod ; rdfs:label "Semi-washed / Semi-pulped" .
+:PulpedNaturalHoney a :ProcessingMethod ; rdfs:label "Pulped natural / honey" .
+:OtherProcessing a :ProcessingMethod ; rdfs:label "Other" .
+
+
+# Quality Tiers
+:BelowSpecialtyGrade a :QualityTier ;
+    rdfs:comment "Coffee scoring below 80 points" .
+
+:SpecialtyGrade a :QualityTier ;
+    rdfs:comment "Coffee scoring 80-84 points, specialty quality" .
+
+:PremiumGrade a :QualityTier ;
+    rdfs:comment "Coffee scoring 85-89 points, high quality" .
+
+:EliteGrade a :QualityTier ;
+    rdfs:comment "Coffee scoring 90+ points, world-class quality" .
+
+
+# Properties
+:hasSpecies a rdf:Property ;
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:string .
+
+:fromCountry a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :Country .
+
+:harvestYear a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range xsd:gYear .
+
+:hasColor a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :Color .
+
+:hasProcessingMethod a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :ProcessingMethod .
+
+:hasQualityProfile a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :QualityProfile .
+
+:hasQualityTier a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :QualityTier .
+
+:hasBrewingRecommendation a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :BrewingRecommendation .
+
+:similarTo a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range :CoffeeLot ;
+    rdfs:comment "Links to coffees with similar quality profiles" .
+
+
+# Cupping Attributes
+:aromaScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:flavorScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:aftertasteScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:acidityScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:bodyScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:balanceScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:uniformityScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:cleanCupScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:sweetnessScore a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:cupperPoints a rdf:Property ;
+    rdfs:domain :QualityProfile ;
+    rdfs:range xsd:decimal .
+
+:totalCupPoints a rdf:Property ;
+    rdfs:domain :CoffeeLot ;
+    rdfs:range xsd:decimal .
+
+
+# Brewing Recommendations
+:PourOverBrewing a :BrewingRecommendation ;
+    rdfs:label "Pour Over" ;
+    :grindSize "Medium" ;
+    :waterTemperature "92-96°C" ;
+    :brewTime "3-4 minutes" ;
+    rdfs:comment "Dedicated to coffees with acidity > 8.5 and processing = washed" .
+
+:FrenchPressBrewing a :BrewingRecommendation ;
+    rdfs:label "French Press" ;
+    :grindSize "Coarse" ;
+    :waterTemperature "96°C" ;
+    :brewTime "4 minutes" ;
+    rdfs:comment "Dedicated to coffees with body > 8.5 and processing = natural" .
+
+:AeropressBrewing a :BrewingRecommendation ;
+    rdfs:label "AeroPress" ;
+    :grindSize "Fine to Medium" ;
+    :waterTemperature "85-92°C" ;
+    :brewTime "1-2 minutes" ;
+    rdfs:comment "Dedicated to coffees that are sweet and aromatic" .
+
+:ColdBrewBrewing a :BrewingRecommendation ;
+    rdfs:label "Cold Brew" ;
+    :grindSize "Coarse" ;
+    :waterTemperature "Room temperature" ;
+    :brewTime "12-24 hours" ;
+    rdfs:comment "Dedicated to coffees with high sweetness and low acidity" .
+
+
+# Example Data
+:Lot0 a :CoffeeLot ;
+    rdfs:label "Ethiopian Washed 2014" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :WashedWet ;
+    :hasQualityProfile :Lot0_Profile ;
+    :totalCupPoints "90.58"^^xsd:decimal ;
+    :hasQualityTier :EliteGrade .
+
+:Lot0_Profile a :QualityProfile ;
+    :aromaScore "8.67"^^xsd:decimal ;
+    :flavorScore "8.83"^^xsd:decimal ;
+    :aftertasteScore "8.67"^^xsd:decimal ;
+    :acidityScore "8.75"^^xsd:decimal ;
+    :bodyScore "8.50"^^xsd:decimal ;
+    :balanceScore "8.42"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.75"^^xsd:decimal .
+
+:Lot1 a :CoffeeLot ;
+    rdfs:label "Ethiopian Washed 2014" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :WashedWet ;
+    :hasQualityProfile :Lot1_Profile ;
+    :totalCupPoints "89.92"^^xsd:decimal ;
+    :hasQualityTier :PremiumGrade .
+
+:Lot1_Profile a :QualityProfile ;
+    :aromaScore "8.75"^^xsd:decimal ;
+    :flavorScore "8.67"^^xsd:decimal ;
+    :aftertasteScore "8.50"^^xsd:decimal ;
+    :acidityScore "8.58"^^xsd:decimal ;
+    :bodyScore "8.42"^^xsd:decimal ;
+    :balanceScore "8.42"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.58"^^xsd:decimal .
+
+:Lot2 a :CoffeeLot ;
+    rdfs:label "Ethiopian Natural 2014" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Ethiopia ;
+    :harvestYear "2014"^^xsd:gYear ;
+    :hasColor :Green ;
+    :hasProcessingMethod :NaturalDry ;
+    :hasQualityProfile :Lot2_Profile ;
+    :totalCupPoints "89.00"^^xsd:decimal ;
+    :hasQualityTier :PremiumGrade .
+
+:Lot2_Profile a :QualityProfile ;
+    :aromaScore "8.17"^^xsd:decimal ;
+    :flavorScore "8.58"^^xsd:decimal ;
+    :aftertasteScore "8.42"^^xsd:decimal ;
+    :acidityScore "8.42"^^xsd:decimal ;
+    :bodyScore "8.50"^^xsd:decimal ;
+    :balanceScore "8.25"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.67"^^xsd:decimal .
+
+# Additional examples showing variety from your dataset
+:Lot4 a :CoffeeLot ;
+    rdfs:label "Brazil Natural 2013" ;
+    :hasSpecies "Arabica" ;
+    :fromCountry :Brazil ;
+    :harvestYear "2013"^^xsd:gYear ;
+    :hasColor :BlueGreen ;
+    :hasProcessingMethod :NaturalDry ;
+    :hasQualityProfile :Lot4_Profile ;
+    :totalCupPoints "88.83"^^xsd:decimal ;
+    :hasQualityTier :PremiumGrade .
+
+:Lot4_Profile a :QualityProfile ;
+    :aromaScore "8.58"^^xsd:decimal ;
+    :flavorScore "8.42"^^xsd:decimal ;
+    :aftertasteScore "8.42"^^xsd:decimal ;
+    :acidityScore "8.50"^^xsd:decimal ;
+    :bodyScore "8.25"^^xsd:decimal ;
+    :balanceScore "8.33"^^xsd:decimal ;
+    :uniformityScore "10.0"^^xsd:decimal ;
+    :cleanCupScore "10.0"^^xsd:decimal ;
+    :sweetnessScore "10.0"^^xsd:decimal ;
+    :cupperPoints "8.33"^^xsd:decimal .
+
+
+# Inference Rules
+## Rule 1: If totalCupPoints < 80, then qualityTier = BelowSpecialtyGrade
+## Rule 2: If totalCupPoints >= 80 and <85, then qualityTier = SpecialtyGrade
+## Rule 3: If totalCupPoints >= 85 and <90, then qualityTier = PremiumGrade  
+## Rule 4: If totalCupPoints >= 90, then qualityTier = EliteGrade
+## Rule 5: If coffee has acidity > 8.0 and processing = washed, then recommend pour over
+## Rule 6: If coffee has body > 8.0 and processing = natural, then recommend french press
+## Rule 7: If coffee is sweet and aromatic, then recommend aeropress
+## Rule 8: If coffee has high sweetness and low acidity, then recommend cold brew
