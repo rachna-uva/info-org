@@ -1,0 +1,233 @@
+@prefix : <http://coffee-quality.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+#######################################
+# CLASSES
+#######################################
+:CoffeeLot a rdfs:Class ;
+    rdfs:comment "A specific batch of coffee with unique quality characteristics" .
+
+:ProcessingMethod a rdfs:Class ;
+    rdfs:comment "Method used to process coffee cherries into green beans" .
+
+:GrowingArea a rdfs:Class ;
+    rdfs:comment "Country or area the coffee originates from" .
+
+:Color a rdfs:Class ;
+    rdfs:comment "Color of the coffee beans" .
+
+:QualityLabel a rdfs:Class ;
+    rdfs:comment "High, Medium, or Low quality labels" .
+
+:TasteCategory a rdfs:Class ;
+    rdfs:comment "Sensory taste attributes for coffee" .
+
+#######################################
+# CONTROLLED VOCABULARY
+#######################################
+
+## Countries
+:Ethiopia a :GrowingArea ; rdfs:label "Ethiopia" .
+:Brazil a :GrowingArea ; rdfs:label "Brazil" .
+:Guatemala a :GrowingArea ; rdfs:label "Guatemala" .
+:Peru a :GrowingArea ; rdfs:label "Peru" .
+:Mexico a :GrowingArea ; rdfs:label "Mexico" .
+:China a :GrowingArea ; rdfs:label "China" .
+:CostaRica a :GrowingArea ; rdfs:label "Costa Rica" .
+:Uganda a :GrowingArea ; rdfs:label "Uganda" .
+:Taiwan a :GrowingArea ; rdfs:label "Taiwan" .
+:Tanzania a :GrowingArea ; rdfs:label "Tanzania" .
+:Kenya a :GrowingArea ; rdfs:label "Kenya" .
+:Colombia a :GrowingArea ; rdfs:label "Colombia" .
+:Panama a :GrowingArea ; rdfs:label "Panama" .
+:ElSalvador a :GrowingArea ; rdfs:label "El Salvador" .
+:Indonesia a :GrowingArea ; rdfs:label "Indonesia" .
+:Honduras a :GrowingArea ; rdfs:label "Honduras" .
+:UnitedStatesHawaii a :GrowingArea ; rdfs:label "United States (Hawaii)" .
+:UnitedStatesPuertoRico a :GrowingArea ; rdfs:label "United States (Puerto Rico)" .
+:Nicaragua a :GrowingArea ; rdfs:label "Nicaragua" .
+
+## Colors
+:Green a :Color ; rdfs:label "green" .
+:BlueGreen a :Color ; rdfs:label "blue-green" .
+:Yellow a :Color ; rdfs:label "yellow" .
+:YellowGreen a :Color ; rdfs:label "yellow-green" .
+:Brown a :Color ; rdfs:label "brown" .
+:BrownGreen a :Color ; rdfs:label "brown-green" .
+:Unknown a :Color ; rdfs:label "unknown" .
+
+## Processing Methods
+:WashedWet a :ProcessingMethod ; rdfs:label "Washed / Wet" .
+:NaturalDry a :ProcessingMethod ; rdfs:label "Natural / Dry" .
+:SemiWashed a :ProcessingMethod ; rdfs:label "Semi-washed / Semi-pulped" .
+:PulpedNaturalHoney a :ProcessingMethod ; rdfs:label "Pulped natural / honey" .
+:OtherProcessing a :ProcessingMethod ; rdfs:label "Other" .
+:Unknown a :ProcessingMethod ; rdfs:label "Unknown" .
+
+## Quality Labels
+:HighQuality a :QualityLabel ; rdfs:label "High Quality" .
+:MediumQuality a :QualityLabel ; rdfs:label "Medium Quality" .
+:LowQuality a :QualityLabel ; rdfs:label "Low Quality" .
+
+## Taste Categories
+:Sweet a :TasteCategory ; rdfs:label "Sweet" .
+:Aromatic a :TasteCategory ; rdfs:label "Aromatic" .
+:Complex a :TasteCategory ; rdfs:label "Complex" .
+:FullBodied a :TasteCategory ; rdfs:label "Full-bodied" .
+:Lingering a :TasteCategory ; rdfs:label "Lingering" .
+:Smooth a :TasteCategory ; rdfs:label "Smooth" .
+:Sour a :TasteCategory ; rdfs:label "Sour" .
+
+#######################################
+# COFFEE LOT PROPERTIES
+#######################################
+
+## Basic Properties
+:hasSpecies a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:string ;
+    rdfs:comment "Coffee species (Arabica, Robusta)" .
+
+:fromCountry a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range :GrowingArea ;
+    rdfs:comment "Country or region of origin" .
+
+:harvestYear a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:string ;
+    rdfs:comment "Year or period when coffee was harvested" .
+
+:hasColor a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range :Color ;
+    rdfs:comment "Color of the coffee beans" .
+
+:hasProcessingMethod a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range :ProcessingMethod ;
+    rdfs:comment "Method used to process the coffee" .
+
+## Quality Scores (0-10 scale)
+:aromaScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Aroma quality score" .
+
+:flavorScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Flavor quality score" .
+
+:aftertasteScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Aftertaste quality score" .
+
+:acidityScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Acidity quality score" .
+
+:bodyScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Body quality score" .
+
+:balanceScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Balance quality score" .
+
+:uniformityScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Uniformity quality score" .
+
+:cleanCupScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Clean cup quality score" .
+
+:sweetnessScore a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Sweetness quality score" .
+
+:cupperPoints a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Cupper's overall points" .
+
+## Overall Quality Metrics
+:totalCupPoints a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Total cup points (sum of all scores)" .
+
+:qualityCategory a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numeric quality category" .
+
+## Quality Label Boolean Properties
+:hasHighQuality a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indicates if coffee is high quality" .
+
+:hasMediumQuality a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indicates if coffee is medium quality" .
+
+:hasLowQuality a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indicates if coffee is low quality" .
+
+## Taste Category String Property
+:tasteCategories a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:string ;
+    rdfs:comment "Comma-separated list of taste categories" .
+
+## Taste Category Boolean Properties
+:isAromatic a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for aromatic taste" .
+
+:isComplex a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for complex taste" .
+
+:isFullBodied a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for full-bodied taste" .
+
+:isLingering a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for lingering taste" .
+
+:isSmooth a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for smooth taste" .
+
+:isSour a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for sour taste" .
+
+:isSweet a rdf:Property ; 
+    rdfs:domain :CoffeeLot ; 
+    rdfs:range xsd:integer ;
+    rdfs:comment "Binary indicator (0/1) for sweet taste" .
