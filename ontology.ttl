@@ -259,7 +259,7 @@
 ## Rule 2: If totalCupPoints >= 80 and <85, then qualityTier = SpecialtyGrade
 ## Rule 3: If totalCupPoints >= 85 and <90, then qualityTier = PremiumGrade  
 ## Rule 4: If totalCupPoints >= 90, then qualityTier = EliteGrade
-## Rule 5: If coffee has acidity > 8.0 and processing = washed, then recommend pour over
-## Rule 6: If coffee has body > 8.0 and processing = natural, then recommend french press
+## Rule 5: If coffee has acidity > 8.0 and processing = washed/Wet, then recommend pour over
+## Rule 6: If coffee has body > 8.0 and processing = Natural/Dry, then recommend french press
 ## Rule 7: If coffee is sweet and aromatic, then recommend aeropress
-## Rule 8: If coffee has high sweetness and low acidity, then recommend cold brew
+## Rule 8: If coffee has sweetness > 8.5 and acidity < 7.5, then recommend cold brew
