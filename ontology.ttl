@@ -17,7 +17,7 @@
     rdfs:comment "Color of the coffee beans" .
 
 :QualityTier a rdfs:Class ;
-    rdfs:comment "High, Medium, or Low quality labels" .
+    rdfs:comment "Below Specialty, Specialty, Premium, or Elite Grade" .
 
 :BrewingRecommendation a rdfs:Class ;
     rdfs:comment "Optimal brewing methods for specific coffee profiles" .
@@ -68,11 +68,8 @@
 
 ## Quality Labels
 :BelowSpecialtyGrade a :QualityTier .
-
 :SpecialtyGrade a :QualityTier .
-
 :PremiumGrade a :QualityTier .
-
 :EliteGrade a :QualityTier .
 
 ## Taste Categories
